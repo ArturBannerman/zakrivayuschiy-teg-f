@@ -42,7 +42,7 @@
 }
 
 .header-logo {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), 'fantasy', sans-serif;
   font-weight: var(--accent-fw-normal);
   line-height: clamp(3.063rem, 2.777rem + 1.429vw, 4.063rem);
   text-decoration: none;
@@ -50,7 +50,7 @@
 }
 
 .header-title {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), 'fantasy', sans-serif;
   font-weight: var(--accent-fw-normal);
   font-size: clamp(0.875rem, 0.714rem + 0.804vw, 1.438rem);
   line-height: clamp(0.875rem, 0.714rem + 0.804vw, 1.438rem);
@@ -86,7 +86,7 @@
 }
 
 .card-title {
-  font-family: var(--main-font);
+  font-family: var(--main-font), sans-serif;
   font-variation-settings: "wght" var(--main-fw-bold);
   font-size: 18px;
   line-height: 21.78px;
@@ -113,7 +113,7 @@
   position: absolute;
   top: 27px;
   right: 27px;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), 'fantasy', sans-serif;
   font-weight: var(--accent-fw-normal);
   font-size: 14px;
   line-height: 14px;
@@ -127,7 +127,7 @@
   flex-direction: column;
   gap: 25px;
   padding: 25px;
-  font-family: var(--main-font);
+  font-family: var(--main-font), sans-serif;
   font-weight: var(--main-fw-normal);
   font-size: 18px;
   line-height: 21px;
@@ -140,7 +140,7 @@
   justify-content: center;
   align-items: center;
   border: var(--main-border);
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), 'fantasy', sans-serif;
   font-weight: var(--accent-fw-bold);
   font-size: 14px;
   background-color: var(--main-bg-color);
@@ -233,9 +233,9 @@
 }
 
 .dialog__text {
-  inline-size: 234px;
-  block-size: 63px;
-  font-family: var(--accent-font);
+  inline-size: 80%;
+  block-size: 100%;
+  font-family: var(--accent-font), 'fantasy', sans-serif;
   font-weight: var(--accent-fw-normal);
   text-transform: uppercase;
   font-size: 14px;
